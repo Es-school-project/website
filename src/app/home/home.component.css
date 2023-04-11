@@ -10,26 +10,31 @@ img {
     z-index: -1;
 }
 
-.navbar {
-    position: absolute;
-    top: 1,9%;
-    left: 3%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 h1 {
-    position: absolute;
+    position: fixed;
     color:darkgrey;
     font-size: 2,7rem;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
     top: 26%;
-    right: 14%;
+    right: 6%;
 }
 
 h2 {
-    position: absolute;
+    position: fixed;
     color: grey;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Roboto Mono', monospace;
     top: 69%;
-    right: 2%;
-    text-align: center;
-  }
-  
+    right: 3%;
+}
+
+h2 span {
+    display: block;
+    margin-left: 5%;
+}
+
+

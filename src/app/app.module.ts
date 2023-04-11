@@ -6,13 +6,25 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component'; // <--- Importez ici
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
+import { ConclusionComponent } from './conclusion/conclusion.component';
+import { BibliographieComponent } from './bibliographie/bibliographie.component';
+import { EnergieMecaniqueComponent } from './energie-mecanique/energie-mecanique.component';
+import { EnergieElectriqueComponent } from './energie-electrique/energie-electrique.component';
+import { EnergieThermiqueComponent } from './energie-thermique/energie-thermique.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FooterComponent,
-    NavbarComponent // <--- Ajoutez ici
+    NavbarComponent,
+    ConclusionComponent,
+    BibliographieComponent,
+    EnergieMecaniqueComponent,
+    EnergieElectriqueComponent,
+    EnergieThermiqueComponent,
+    PagenotfoundComponent 
   ],
   imports: [
     BrowserModule,
