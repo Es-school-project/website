@@ -10,13 +10,18 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'admin/', redirectTo: 'admin', pathMatch: 'full' },
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
   { path: 'energie_mecanique', component: EnergieMecaniqueComponent },
+  { path: 'accueil', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'energie_thermique', component: EnergieThermiqueComponent },
   { path: 'energie_electrique', component: EnergieElectriqueComponent },
   { path: 'conclusion', component: ConclusionComponent },
   { path: 'bibliographie', component: BibliographieComponent },
   { path: '**', component: PagenotfoundComponent },
-]
+];
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

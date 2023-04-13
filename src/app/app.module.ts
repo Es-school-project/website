@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component'; // <--- Importez ici
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
@@ -12,6 +13,7 @@ import { EnergieMecaniqueComponent } from './energie-mecanique/energie-mecanique
 import { EnergieElectriqueComponent } from './energie-electrique/energie-electrique.component';
 import { EnergieThermiqueComponent } from './energie-thermique/energie-thermique.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -24,12 +26,14 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     EnergieMecaniqueComponent,
     EnergieElectriqueComponent,
     EnergieThermiqueComponent,
-    PagenotfoundComponent 
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbDropdownModule
+    NgbDropdownModule,
+    FormsModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]
