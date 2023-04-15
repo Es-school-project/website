@@ -24,7 +24,7 @@ export class LoginComponent {
   submit() {
     const user = this.users.find(u => u.username === this.username && u.password === this.password);
     if (user) {
-      this.router.navigate(['/admin/dashboard']);
+      this.router.navigate(['admin/dashboard']);
     } else {
       this.router.navigate(['/home']);
     }

@@ -14,6 +14,7 @@ import { EnergieElectriqueComponent } from './energie-electrique/energie-electri
 import { EnergieThermiqueComponent } from './energie-thermique/energie-thermique.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { AdminModule } from './admin/admin.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AdminModule } from './admin/admin.module';
     AppRoutingModule,
     NgbDropdownModule,
     FormsModule,
-    AdminModule
+    AdminModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
