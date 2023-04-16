@@ -3,3 +3,9 @@
     top: 2.8%;
     left: 3%;
 }
+
+.navbar-nav .nav-item:hover .nav-link {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
