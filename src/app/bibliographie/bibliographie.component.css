@@ -1,3 +1,101 @@
 .contenu {
-    background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
+  background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #DFD7D6
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.link-container a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.link-container .bar {
+  width: 250px;
+  height: 1px;
+  background-color: #DFD7D6;
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 125px);
+  margin: 0 auto;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtube-icon {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.article-icon {
+  background-image: url("../../assets/book_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a.youtube:visited {
+  color: red
+}
+
+a.article {
+  color: #7E57C2
+}
+
+a.youtube:hover {
+  color: white
+}
+
+a.article:hover {
+  color: white
+}
+
+.dropdown-arrow {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+  border-top: 0.5rem solid #DFD7D6;
+  border-right: 0.5rem solid transparent;
+  border-left: 0.5rem solid transparent;
+  transform: translateY(30%);
+}
+
+.arrow-up {
+  transform: rotate(180deg) translateY(60%);
 }
