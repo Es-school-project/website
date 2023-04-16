@@ -19,6 +19,10 @@ a {
   margin: 20px auto;
 }
 
+h2:hover {
+  cursor: pointer;
+}
+
 .link-container a {
   text-decoration: none;
   font-size: 18px;
