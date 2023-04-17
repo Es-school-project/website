@@ -44,11 +44,23 @@ h2:hover {
   margin: 0 auto;
 }
 
+.paragraph span {
+  display: block;
+  opacity: 0;
+  animation: reveal 0.5s forwards var(--d);
+}
+
+.paragraph a {
+  opacity: 0;
+  animation: reveal 0.5s forwards var(--d);
+}
+
 .link-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 .youtube-icon {
@@ -102,4 +114,27 @@ a.article:hover {
 
 .arrow-up {
   transform: rotate(180deg) translateY(60%);
+}
+
+h1 span {
+  display: block;
+  opacity: 0;
+  animation: reveal 0.5s forwards var(--d);
+}
+
+h2 .animation {
+  display: block;
+  opacity: 0;
+  animation: reveal 0.5s forwards var(--d);
+}
+
+@keyframes reveal {
+  from {
+    transform: translateY(25px)
+  }
+
+  to {
+    opacity: 1;
+    transform: none
+  }
 }

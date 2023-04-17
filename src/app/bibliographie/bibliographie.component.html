@@ -5,42 +5,58 @@
     <br>
     <br>
     <br>
-    <h1>SOURCES:</h1>
+    <div class="paragraph">
+        <h1><span style="--d: 0s">SOURCES:</span></h1>
+    </div>
     <br>
     <h2 class="dropdown-title" (click)="toggleLinksMecanique()">
-        <span class="dropdown-arrow" [class.arrow-up]="isArrowUpMecanique"></span>
-        Pour l'énergie mécanique
+        <span style="--d: 0.2s" class="animation"> <span class="dropdown-arrow"
+                [class.arrow-up]="isArrowUpMecanique"></span>
+            Pour l'énergie mécanique</span>
     </h2>
     <div *ngIf="showLinksMecanique" class="link-container">
-        <a *ngFor="let link of linksMecanique; let i = index" href="{{ link.url }}" target="_blank" class="{{link.class}}">
-            <span class="{{link.icon}}"></span>
-            {{ link.title }}
-            <div class="bar" *ngIf="i !== linksMecanique.length - 1"></div>
-        </a>
+        <div class="paragraph">
+            <a *ngFor="let link of linksMecanique; let i = index" href="{{ link.url }}" target="_blank"
+                class="{{link.class}}" style="--d: 0.{{i}}s">
+                <span class="{{link.icon}}"></span>
+                {{ link.title }}
+                <div class="bar" *ngIf="i !== linksMecanique.length - 1"></div>
+            </a>
+        </div>
     </div>
     <br>
     <h2 class="dropdown-title" (click)="toggleLinksThermique()">
-        <span class="dropdown-arrow" [class.arrow-up]="isArrowUpThermique"></span>
-        Pour l'énergie thermique
+        <span style="--d: 0.3s" class="animation"> <span class="dropdown-arrow"
+                [class.arrow-up]="isArrowUpThermique"></span>
+            Pour l'énergie thermique</span>
     </h2>
     <div *ngIf="showLinksThermique" class="link-container">
-        <a *ngFor="let link of linksThermique; let i = index" href="{{ link.url }}" target="_blank" class="{{link.class}}">
-            <span class="{{link.icon}}"></span>
-            {{ link.title }}
-            <div class="bar" *ngIf="i !== linksThermique.length - 1"></div>
-        </a>
+        <div class="paragraph">
+            <a *ngFor="let link of linksThermique; let i = index" href="{{ link.url }}" target="_blank"
+                class="{{link.class}}" style="--d: 0.{{i}}s">
+                <span class="{{link.icon}}"></span>
+                {{ link.title }}
+                <div class="bar" *ngIf="i !== linksThermique.length - 1"></div>
+            </a>
+        </div>
     </div>
     <br>
     <h2 class="dropdown-title" (click)="toggleLinksElectrique()">
-        <span class="dropdown-arrow" [class.arrow-up]="isArrowUpElectrique"></span>
-        Pour l'énergie électrique
+        <span style="--d: 0.4s" class="animation"> <span class="dropdown-arrow"
+                [class.arrow-up]="isArrowUpElectrique"></span>
+            Pour l'énergie électrique</span>
     </h2>
     <div *ngIf="showLinksElectrique" class="link-container">
-        <a *ngFor="let link of linksElectrique; let i = index" href="{{ link.url }}" target="_blank" class="{{link.class}}">
-            <span class="{{link.icon}}"></span>
-            {{ link.title }}
-            <div class="bar" *ngIf="i !== linksElectrique.length - 1"></div>
-        </a>
+        <div class="paragraph">
+            <span style="--d: 0s">
+                <a *ngFor="let link of linksElectrique; let i = index" href="{{ link.url }}" target="_blank"
+                    class="{{link.class}}" style="--d: 0.{{i}}s">
+                    <span class="{{link.icon}}"></span>
+                    {{ link.title }}
+                    <div class="bar" *ngIf="i !== linksElectrique.length - 1"></div>
+                </a>
+            </span>
+        </div>
     </div>
     <br>
     <br>
