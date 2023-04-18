@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 <div class="contenu">
     <br>
     <br>
@@ -17,8 +18,8 @@
         <div class="paragraph">
             <a *ngFor="let link of linksMecanique; let i = index" href="{{ link.url }}" target="_blank"
                 class="{{link.class}}" style="--d: 0.{{i}}s">
-                <span class="{{link.icon}}"></span>
-                {{ link.title }}
+                <i class="{{link.icon}}"></i>
+                ㅤ{{ link.title }}
                 <div class="bar" *ngIf="i !== linksMecanique.length - 1"></div>
             </a>
         </div>
@@ -33,8 +34,8 @@
         <div class="paragraph">
             <a *ngFor="let link of linksThermique; let i = index" href="{{ link.url }}" target="_blank"
                 class="{{link.class}}" style="--d: 0.{{i}}s">
-                <span class="{{link.icon}}"></span>
-                {{ link.title }}
+                <i class="{{link.icon}}"></i>
+                ㅤ{{ link.title }}
                 <div class="bar" *ngIf="i !== linksThermique.length - 1"></div>
             </a>
         </div>
@@ -50,8 +51,8 @@
             <span style="--d: 0s">
                 <a *ngFor="let link of linksElectrique; let i = index" href="{{ link.url }}" target="_blank"
                     class="{{link.class}}" style="--d: 0.{{i}}s">
-                    <span class="{{link.icon}}"></span>
-                    {{ link.title }}
+                    <i class="{{link.icon}}"></i>
+                    ㅤ{{ link.title }}
                     <div class="bar" *ngIf="i !== linksElectrique.length - 1"></div>
                 </a>
             </span>

@@ -1,4 +1,4 @@
-.contenu {
+/* .contenu {
     background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
     display: flex;
     justify-content: center;
@@ -22,4 +22,8 @@
 @keyframes reveal {
     from { transform: translateY(20px)}
     to { opacity: 1; transform: none}
+} */
+
+svg {
+    color: red;
 }
