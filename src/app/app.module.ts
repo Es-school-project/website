@@ -14,6 +14,10 @@ import { EnergieElectriqueComponent } from './energie-electrique/energie-electri
 import { EnergieThermiqueComponent } from './energie-thermique/energie-thermique.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { AdminModule } from './admin/admin.module';
+import { EnergieElecModule } from './energie_elec/energie_elec.module';
+import { EnergieMecaModule } from './energie_meca/energie_meca.module';
+import { EnergieThermModule } from './energie_therm/energie_therm.module';
+
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -35,6 +39,9 @@ import { HttpClientModule } from '@angular/common/http';
     NgbDropdownModule,
     FormsModule,
     AdminModule,
+    EnergieElecModule,
+    EnergieMecaModule,
+    EnergieThermModule,
     HttpClientModule
   ],
   providers: [],
