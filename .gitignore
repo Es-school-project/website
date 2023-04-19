@@ -43,6 +43,8 @@ Thumbs.db
 node_modules/
 
 .vscode/ 
+.angular/cache
+.angular
 angular-website/.angular/cache/15.2.1/angular-webpack/09fba0c3b6c676f57326eef90cc7f907b1fc8517/0.pack
 angular-website/.angular/cache/15.2.1/angular-webpack/09fba0c3b6c676f57326eef90cc7f907b1fc8517/1.pack
 angular-website/.angular/cache/15.2.1/angular-webpack/09fba0c3b6c676f57326eef90cc7f907b1fc8517/2.pack
