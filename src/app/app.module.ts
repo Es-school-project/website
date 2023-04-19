@@ -27,7 +27,7 @@ import { HttpClientModule } from '@angular/common/http';
     EnergieMecaniqueComponent,
     EnergieElectriqueComponent,
     EnergieThermiqueComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,
