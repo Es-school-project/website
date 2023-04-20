@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ProtocleComponent } from './protocle/protocle.component';
-
+import { ProtocoleComponent } from './protocole/protocole.component';
+import { InterpretationComponent } from './interpretation/interpretation.component';
 const routes: Routes = [
     { path: '', redirectTo: 'protocole', pathMatch: 'full' },
-    { path: 'protocole', component: ProtocleComponent },
+    { path: 'protocole', component: ProtocoleComponent },
+    { path: 'interpretation', component: InterpretationComponent},
 ];
 
 @NgModule({

@@ -1,10 +1,16 @@
 import { NgModule } from '@angular/core';
-import { ProtocleComponent } from './protocle/protocle.component';
+import { ProtocoleComponent } from './protocole/protocole.component';
 import { EnergieMecaModuleRouting } from './energie_meca-routing.module';
+import { ConclusionComponent } from './conclusion/conclusion.component';
+import { InterpretationComponent } from './interpretation/interpretation.component';
+import { ManipulationComponent } from './manipulation/manipulation.component';
 
 @NgModule({
   declarations: [
-    ProtocleComponent,
+    ProtocoleComponent,
+    ConclusionComponent,
+    InterpretationComponent,
+    ManipulationComponent,
   ],
   imports: [
     EnergieMecaModuleRouting
