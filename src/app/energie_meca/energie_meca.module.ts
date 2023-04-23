@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
-import { ProtocoleComponent } from './protocole/protocole.component';
 import { EnergieMecaModuleRouting } from './energie_meca-routing.module';
+
+import { ProtocoleComponent } from './protocole/protocole.component';
 import { ConclusionComponent } from './conclusion/conclusion.component';
 import { InterpretationComponent } from './interpretation/interpretation.component';
 import { ManipulationComponent } from './manipulation/manipulation.component';

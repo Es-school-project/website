@@ -10,8 +10,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'energie_elec', loadChildren: () => import('./energie_elec/energie_elec.module').then(m => m.EnergieElecModule) },
   { path: 'energie_meca', loadChildren: () => import('./energie_meca/energie_meca.module').then(m => m.EnergieMecaModule) },
+  { path: 'energie_elec', loadChildren: () => import('./energie_elec/energie_elec.module').then(m => m.EnergieElecModule) },
   { path: 'energie_therm', loadChildren: () => import('./energie_therm/energie_therm.module').then(m => m.EnergieThermModule) },
   { path: 'energie_mecanique', component: EnergieMecaniqueComponent },
   { path: 'accueil', component: HomeComponent },
@@ -27,4 +27,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
