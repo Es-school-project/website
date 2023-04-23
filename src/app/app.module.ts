@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
-import { NavbarComponent } from './navbar/navbar.component'; // <--- Importez ici
+import { NavbarComponent } from './navbar/navbar.component'; 
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { ConclusionComponent } from './conclusion/conclusion.component';
 import { BibliographieComponent } from './bibliographie/bibliographie.component';
@@ -13,7 +13,6 @@ import { EnergieMecaniqueComponent } from './energie-mecanique/energie-mecanique
 import { EnergieElectriqueComponent } from './energie-electrique/energie-electrique.component';
 import { EnergieThermiqueComponent } from './energie-thermique/energie-thermique.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
-import { AdminModule } from './admin/admin.module';
 import { EnergieElecModule } from './energie_elec/energie_elec.module';
 import { EnergieMecaModule } from './energie_meca/energie_meca.module';
 import { EnergieThermModule } from './energie_therm/energie_therm.module';
@@ -25,26 +24,25 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HomeComponent,
     FooterComponent,
-    NavbarComponent,
     ConclusionComponent,
     BibliographieComponent,
     EnergieMecaniqueComponent,
     EnergieElectriqueComponent,
     EnergieThermiqueComponent,
     PagenotfoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbDropdownModule,
     FormsModule,
-    AdminModule,
     EnergieElecModule,
     EnergieMecaModule,
     EnergieThermModule,
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

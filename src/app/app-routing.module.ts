@@ -10,7 +10,6 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
   { path: 'energie_elec', loadChildren: () => import('./energie_elec/energie_elec.module').then(m => m.EnergieElecModule) },
   { path: 'energie_meca', loadChildren: () => import('./energie_meca/energie_meca.module').then(m => m.EnergieMecaModule) },
   { path: 'energie_therm', loadChildren: () => import('./energie_therm/energie_therm.module').then(m => m.EnergieThermModule) },
