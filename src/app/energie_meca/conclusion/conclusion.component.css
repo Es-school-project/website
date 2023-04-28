@@ -1,0 +1,39 @@
+.content {
+    background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
+    min-height: 100vh;
+    padding: 10vh;
+}
+
+.title_conclusion {
+    display: inline-block;
+    width: auto;
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.texte_title {
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+    margin-bottom: 5vh;
+}
+
+.video_ccl {
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
+
+.video_texte {
+    margin: 10vh;
+    margin-top: 5vh;
+}
+
+.video {
+    display: flex;
+    justify-content: space-around;
+}
