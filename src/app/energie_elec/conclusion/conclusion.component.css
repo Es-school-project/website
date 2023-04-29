@@ -34,5 +34,26 @@
 }
 
 .image {
-    /* i'm lazy so i'm using a carousel */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh;
+}
+
+.mid_block {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img_ccl {
+    width: 25%;
+    height: auto;
 }
