@@ -69,7 +69,7 @@ h2:hover {
   background-repeat: no-repeat;
   width: 48px;
   height: 48px;
-  margin-right: 10px;
+  margin-right: 1vh !important;
   display: inline-block;
   vertical-align: middle;
 }
@@ -80,12 +80,12 @@ h2:hover {
   background-repeat: no-repeat;
   width: 48px;
   height: 48px;
-  margin-right: 10px;
+  margin-right: 1vh !important;
   display: inline-block;
   vertical-align: middle;
 }
 
-a.youtube:visited {
+a.youtube {
   color: red
 }
 
