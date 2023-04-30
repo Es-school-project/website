@@ -1,9 +1,119 @@
 <div class="content">
     <!--Titre principale :-->
     <div class="title_protocole">
-        <h1 class="title">Protocole Electrique:</h1>
-        <p>Nous avons mis en place un protocole utilisant un capteur piézoélectrique et une carte programmable arduino
-            UNO
-        </p>
+        <h1 class="title">Protocole mécanique :</h1>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Définition des termes :
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Énergie électrique :</strong> L’énergie électrique est l’énergie associée au déplacement
+                        des électrons à travers un matériau conducteur. Elle correspond également à la quantité
+                        d’énergie consommée par un appareil par unité de temps. E=PxΔt.
+                        Intensité électrique : c’est la quantité d’électricité traversant le circuit en une seconde.
+                        Elle
+                        s’exprime en A.
+                        <br>
+                        <br>
+                        <strong>Intensité des ondes sonores :</strong> Cette grandeur permet de donner une indication
+                        sur
+                        la « force » d’un
+                        son : plus l’intensité sonore est élevée et plus le son perçu est fort par l’oreille humaine.
+                        Elle s’exprime en W/m².
+                        <br>
+                        <br>
+                        <strong>Puissance des ondes sonores :</strong> La puissance acoustique correspond à l’énergie
+                        sonore totale émise
+                        par une source acoustique par unité de temps. On la note Lw et on l’exprime en Décibel (dB).
+                        <br>
+                        <br>
+                        <strong>Ultrasons :</strong> Les ultrasons sont des sons inaudibles pour l’Homme, ils se situent
+                        entre 16 kHz et
+                        10 MHz. Les ultrasons de puissance, de fréquence comprise entre 16 kHz et 1 MHz. Ils peuvent
+                        entraîner des modifications physiques et chimiques (décapage, dégazage, émulsification,
+                        modification de mécanisme réactionnel, production de radicaux libres).<ul>
+                            <li>Les ultrasons de puissance sont également divisés en 2 parties :</li>
+                            <li>les ultrasons de basses fréquences (16 à 100 kHz)</li>
+                            <li>les ultrasons de hautes et de très hautes fréquences (supérieure à 100 kHz pour les
+                                hautes
+                                fréquences et à 1 MHz pour les très hautes fréquences).</li>
+                        </ul>
+                        <br>
+                        <strong>Fréquence :</strong> La fréquence d’un son correspond au nombre de vibrations émises en
+                        une seconde. Elle
+                        se mesure en Hertz (Hz).
+                        <br><br>
+                        <strong>Intensité électrique : </strong>C’est la quantité d’électricité traversant le circuit en
+                        une seconde. Elle s’exprime en A.
+                        <br>
+                        <strong>Tension électrique :</strong> La tension électrique est la charge électrique qui peut
+                        passer à l’intérieur d’un matériau conducteur d’électricité, et qui se mesure en volts, et qui
+                        peut être de très basse ou de très haute tension.
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Matériel :
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Il est possible de créer de l’énergie électrique et de l’exploiter à l’aide de capteur
+                        piézoélectrique.
+                        <br>
+                        <strong>Matériel : </strong><br>
+                        <ul>
+                            <li>Haut-parleur</li>
+                            <li>Générateur de signaux sonores/ultrasons</li>
+                            <li>Microphone piézoélectrique</li>
+                            <li>Caisse de résonance (optionnel)</li>
+                            <li>Caméra + support</li>
+                            <li>Arduino</li>
+                            <li>Câbles</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Manipulation :
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Pour produire à l’aide de capteur piézoélectrique, il faut utiliser ou produire des vibrations.
+                        Pour le test en labo, nous avons employé un téléphone pour générer les vibrations.<br>
+                        <ol>
+                            <li>Poser un téléphone mobile sur une surface plane</li>
+                            <li>Scotcher le capteur piézoélectrique sur le téléphone </li>
+                            <li>Brancher les fils signale + et — du capteur piézoélectrique sur les bornes A0, 5 v et
+                                GND
+                                sur la carte Arduino UNO</li>
+                            <li>Placer la caméra sur son support pour filmer l’expérience</li>
+                            <li>Démarrer l’enregistrement des données à l’aide de l’ordinateur en utilisant arduino ide
+                                et putty. (Pensez à appuyer sur le bouton reset avant de débuter l’expérience pour clear
+                                les données du fichier data)</li>
+                            <li>Faire sonner le téléphone ou faire en sorte qu’il vibre</li>
+                            <li>Enregistrer la manipulation à l’aide de la caméra.</li>
+                            <li>Noter/relever toutes les données expérimentales.</li>
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
