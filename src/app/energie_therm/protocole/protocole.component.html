@@ -1,7 +1,7 @@
 <div class="content">
     <!--Titre principale :-->
     <div class="title_protocole">
-        <h1 class="title">Protocole mécanique :</h1>
+        <h1 class="title">Protocole thermique :</h1>
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -12,14 +12,12 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>Énergie mécanique :</strong> L’énergie mécanique d’un système physique est la somme de
-                        son énergie
-                        cinétique et de son énergie potentielle. L’énergie cinétique dépend de la vitesse du système, et
-                        l’énergie potentielle dépend de sa capacité à acquérir de la vitesse. Dans le cas particulier
-                        d’un système soumis exclusivement à un champ de pesanteur, son énergie potentielle dépend de son
-                        altitude par rapport à un niveau arbitraire de référence. Dans le cas d’un système isolé, sans
-                        interaction avec le milieu extérieur (sous forme de frottements, par exemple), l’énergie
-                        mécanique est constante. Em=Ec+Epp. On l’exprime en J.
+                        <strong>Cavitation acoustique :</strong> Il s’agit de la formation de bulles de gaz, lorsqu’un
+                        liquide est soumis à l’impulsion d’une onde acoustique.Il résulte de ce phénomène un choc de
+                        pression au voisinage de la bulle de gaz, et la formation d’un micro réacteur thermochimique à
+                        l’intérieur de cette dernière. Pour que la cavitation acoustique ait lieu, un seuil de puissance
+                        doit être atteint. Ce seuil est de l’ordre de 0.5W/cm² à 20 kHz pour l’eau à pression
+                        atmosphérique.
                         <br>
                         <br>
                         <strong>Intensité des ondes sonores :</strong> Cette grandeur permet de donner une indication
@@ -50,13 +48,8 @@
                         une seconde. Elle
                         se mesure en Hertz (Hz).
                         <br><br>
-                        <strong>Fréquence de résonnance :</strong> Le phénomène de résonance est un phénomène qui agit
-                        sur des systèmes
-                        physique (électriques ou mécaniques) sensibles à des fréquences précises de sons. Un système
-                        entre en résonance lorsqu’il accumule de l’énergie face à l’exposition de cet énergie. Un
-                        système soumit à la force d’une fréquence de résonnance accumulera de l’énergie jusqu’à
-                        atteindre une rupture du système par repoussement des molécules. Cette fréquence doit être
-                        appliqués de manière périodique au système.
+                        <strong>Energie thermique :</strong> L’énergie thermique se définit comme de la chaleur produite
+                        par différents processus (physique, chimique, mécanique et nucléaire).
 
 
                     </div>
@@ -71,25 +64,21 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Il est possible de créer de l'énergie mécanique à l'aide d’ultrasons en utilisant la fréquence
-                        de résonance. <br>
+                        Il est possible de créer de l'énergie thermique à l'aide de sons en utilisant le principe de la
+                        cavitation acoustique <br>
                         <strong>Matériel : </strong><br>
                         <ul>
-                            <li>Verre en cristal de préférence</li>
-                            <li>Microphone de qualité professionnelle ou un sonomètre</li>
-                            <li>Support pour maintenir le verre en cristal stable</li>
-                            <li>Ordinateur avec un logiciel d'enregistrement sonore (ex: Audacity)</li>
-                            <li>Calculatrice</li>
-                            <li>Haut-parleur</li>
-                            <li>Générateur signaux sonores/ultrasons</li>
-                            <li>Caisse de résonance</li>
-                            <li>Caméra</li>
-                            <li>Support pour la caméra</li>
+                            <li>Générateur d'ultrasons (40Hz)</li>
+                            <li>Émetteur d’ultrasons</li>
+                            <li>Potence</li>
+                            <li>Sonde de température</li>
+                            <li>Arduino uno</li>
+                            <li>circuit pour connecter sonde avec résistance 4,7 Kohm</li>
+                            <li>Récipient en plastique</li>
+                            <li>Agitateur magnétique + barreau magnétique</li>
+                            <li>Téléphone et pieds pour le téléphone</li>
+                            <li>Câbles</li>
                         </ul> <strong>Equipement de protection individuelle (EPI)</strong>
-                        <ul>
-                            <li>Protections auditives</li>
-                            <li>Lunette de protection</li>
-                        </ul>
 
                     </div>
                 </div>
@@ -98,65 +87,39 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Protocole préparatoire :
+                        Protocole :
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        Pour briser un verre, il faut chercher la fréquence de résonance du verre
-                        pour ensuite tenter de le briser en la reproduisant de manière périodique.<br>
+                        Phrase à changer- /!\ to change<br>
                         <ol>
-                            <li>Lancer le logiciel d’enregistrement</li>
-                            <li>Installer le verre sur le support, de façon stable</li>
-                            <li>Lancer un premier enregistrement pour s’assurer que le niveau sonore est suffisant pour
-                                une analyse précise.</li>
-                            <li>Faire chanter le verre avec son doigt ou en le tapotant pour obtenir un son clair et
-                                net.</li>
-                            <li>Lancer l’enregistrement sonore et enregistrer le son produit par le verre pendant 10
-                                secondes</li>
-                            <li>Arrêter l’enregistrement sonore et sauvegarder les résultats</li>
-                            <li>Ouvrir le fichier enregistré dans Audacity et sélectionner la partie du son produite par
-                                le verre en cristal en supprimant les parties parasites.</li>
-                            <li>Sélectionner 5 à 10 périodes de la partie nette du son enregistré.</li>
-                            <li>Mesurer la durée de la sélection des 5 à 10 périodes et diviser par 10 pour obtenir la
-                                durée d’une seule période.</li>
-                            <li>Calculer la fréquence fondamentale à l’aide de la formule f = 1/T, où T est la durée
-                                (mesurée en seconde)</li>
-                            <li>Vérifier la fréquence calculée à l’aide de l’outil d’analyse de fréquence sur Audacity.
+                            <li>Remplir une bassine d’eau au ⅕</li>
+                            <li>Poser la bassine sur un agitateur magnétique et mettre le barreau magnétique dans la
+                                bassine</li>
+                            <li>Configurer la sonde avec un PC + logiciel (arduino ide et putty)</li>
+                            <li>Mettre la sonde dans la bassine</li>
+                            <li>Laisser la bassine un moment pour que la température de l'eau se stabilise à la
+                                température ambiante de la pièce</li>
+                            <li>Placer trois émetteurs connectés à des générateurs à ultrasons (40 kHz)</li>
+                            <li>Préparer la caméra avec son support pour filmer l'installation</li>
+                            <li>Allumer l’agitateur magnétique pour faire tourner le barreau à vitesse moyenne/basse
                             </li>
-                            <li>Réaliser plusieurs enregistrements pour s’assurer que les résultats sont cohérents et
-                                fiables.</li>
+                            <li>Laisser l’expérience se faire pendant quelques heures pour avoir un résultat optimal
+                            </li>
+                            <li>Après quelques heures, relever les données récoltées, éteindre l’agitateur magnétique et
+                                observer dans la bassine (présence de bulles)</li>
+                            <li>Enlever le matériel, vider la bassine et ranger
+                            </li>
                         </ol>
+                        <strong>Remarques :</strong>
+                        <ul>
+                            <li>Faire attention aux échanges thermodynamiques et de prendre en compte tous les facteurs
+                                dans l’augmentation de la température du récipient</li>
+                            <li>Eviter de toucher la sonde de température ou le récipient d’eau</li>
 
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Protocle primaire :
-                    </button>
-                </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <ol>
-                            <li>Relier le générateur de signaux sonores aux haut-parleurs</li>
-                            <li>Placer le verre à casser sur un support stable à une distance 10 cm du générateur de
-                                signaux sonores/ultrasons</li>
-                            <li>Mettre l'ensemble dans la caisse de résonance pour amplifier l'effet des ondes sonores
-                            </li>
-                            <li>Préparer la caméra en la plaçant à une distance suffisante pour filmer l'objet à casser
-                                et en hauteur à l’aide du support.</li>
-                            <li>Mettre les EPI</li>
-                            <li>Régler le générateur de signaux sonores à la fréquence trouvée dans la partie 1</li>
-                            <li>Faire varier la puissance jusqu’à ce que le verre casse</li>
-                            <li>Noter la fréquence à laquelle l'objet commence à se déformer ainsi que celle à laquelle
-                                il se casse ainsi que le temps</li>
-                            <li>Arrêter le générateur de signaux sonores et enlever les EPI</li>
-                            <li>Éteindre la caméra</li>
-                            <li>Nettoyer la zone de travail et ranger le matériel.</li>
-                        </ol>
+                        </ul>
+
                     </div>
                 </div>
             </div>
