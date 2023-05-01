@@ -20,6 +20,12 @@ export class BibliographieComponent {
       icon: "bi-youtube"
     },
     {
+      title: "Experimentoboy: Casser un verre avec du son ?",
+      url: "https://www.youtube.com/watch?v=QhwuYDfATLc",
+      class: "youtube",
+      icon: "bi-youtube"
+    },
+    {
       title: "On n'est pas que des cobayes: Peut-on casser un verre avec la voix ?",
       url: "https://www.youtube.com/watch?v=DP4wQmOGy5w",
       class: "youtube",
@@ -82,6 +88,12 @@ export class BibliographieComponent {
       url: "https://www.leparisien.fr/week-end/futur-le-bruit-nouvelle-source-d-energie-17-06-2013-2904413.php",
       class: "article",
       icon: "bi-book-fill"
+    },
+    {
+      title: "Bruit, nuisances sonores et pollution sonore | Ministères Écologie Énergie Territoires",
+      url: "https://www.ecologie.gouv.fr/bruit-nuisances-sonores-et-pollution-sonore",
+      class: "youtube",
+      icon: "bi-youtube"  
     }
   ]
   toggleLinksMecanique() {
