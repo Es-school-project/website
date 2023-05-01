@@ -1,0 +1,16 @@
+.content {
+    background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
+    min-height: 100vh;
+    padding: 10vh;
+}
+
+.title_interprétation {
+    color: white;
+    padding: 10vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+}
