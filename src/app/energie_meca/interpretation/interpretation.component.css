@@ -1,23 +1,36 @@
-.content {
+.contenu {
     background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
     min-height: 100vh;
-    padding: 10vh;
-}
-
-.title_conclusion {
-    display: inline-block;
-    width: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
     color: white;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
+.paragraph {
+    text-align: center;
+    padding: 5vh;
+    padding-top: 0vh;
 }
 
-.texte_title {
-    display: flex;
-    justify-content: center;
-    margin: 10vh;
-    margin-bottom: 5vh;
+.paragraph span {
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
+}
+
+@keyframes reveal {
+    from {
+        transform: translateY(20px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
 }

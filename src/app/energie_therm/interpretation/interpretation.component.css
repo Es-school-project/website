@@ -1,16 +1,36 @@
-.content {
+.contenu {
     background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
-    min-height: 100vh;
-    padding: 10vh;
-}
-
-.title_interprétation {
-    color: white;
-    padding: 10vh;
-}
-
-.title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    min-height: 100vh;
+    padding-bottom: 50vh;
+    padding-top: 10vh;
+    text-align: center;
+    color: white;
+}
+
+.paragraph {
+    text-align: center;
     padding: 5vh;
+    padding-top: 0vh;
+}
+
+.paragraph span {
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
+}
+
+@keyframes reveal {
+    from {
+        transform: translateY(20px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
 }

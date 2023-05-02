@@ -1,38 +1,111 @@
-<div class="content">
-    <!--Titre principale :-->
-    <div class="title_interprétation">
-        <h1 class="title">Interprétation énergie thermique :</h1>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Première expérience :
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <iframe width="738" height="371" seamless frameborder="0" scrolling="no"
-                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPHxrJhTnk5G0S-uMf_0wmU0clrHbDrxSx7930LmjzMAgzAlJBz9QbGhi68QqX5mnTn-Q1shk5XYuy/pubchart?oid=169067314&amp;format=interactive"></iframe>
+<!-- <div class="content">
 
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Expérience témoin :
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <iframe width="572" height="364" seamless frameborder="0" scrolling="no"
-                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPHxrJhTnk5G0S-uMf_0wmU0clrHbDrxSx7930LmjzMAgzAlJBz9QbGhi68QqX5mnTn-Q1shk5XYuy/pubchart?oid=991059271&amp;format=interactive"></iframe>
+</div> -->
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="contenu">
+    <h2 class="paragraph"><span style="--d: 0s">Interprétation de l'énergie thermique:</span></h2>
+    <h3 class="paragraph"><span style="--d: 0s">Expérience A</span></h3>
+    <iframe width="847" height="537" seamless frameborder="0" scrolling="no"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTGth-Fwp4pB8y2ZDMSa-jTmdnB4p9dwbdN7xK71HmRPmk3sFiPAMo9pRzOHrKjP6kKPJ79-iKCdAzo/pubchart?oid=1902046953&amp;format=interactive"></iframe>
+    <h3 class="paragraph"><span style="--d: 0s">Expérience B</span></h3>
+    <iframe width="1094" height="371" seamless frameborder="0" scrolling="no"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRp2a3bKId61rDxsyHtGAYjCI5-uE_GcqVZ8N57eOUAj9kanILn_kU5yo3lXQ2Z3v-shRvENG4JyxAZ/pubchart?oid=169067314&amp;format=interactive"></iframe>
+    <p class="paragraph">
+        <span style="--d: 0s">Avant de procéder à l’interprétation, il faut prendre en compte que la température
+            initiale, n’est pas identique pour les deux expériences, la manipulation témoin ayant été faite dans un
+            environnement plus chaud la température initiale y sera de 19,8 degrés.
+            Lors de l’expérience B, nous avons placé trois émetteurs à ultrasons, chacun connecté à un générateur à
+            ultrasons de 40 KHz, au-dessus d’une bassine d’eau contenant 200 mL de liquide. La température en sortie de
+            robinet d’eau est à une température moyenne de 15°C, nettement inférieure à la température de la pièce qui
+            se trouve vers les 17°C. C'est donc pour cette raison, que l'on a dû laisser la bassine reposer jusqu’à que
+            l’eau soit à la température ambiante.
+            Pour l’expérience B, la température initiale de l’eau était de 17.21°C, à 13:45:00, heure du début de
+            l'enregistrement de l’expérience.
+            Les générateurs d'ultrasons émettront des ondes sinusoïdales d'une fréquence constante de 40 kHz tout au
+            long de l'expérience.</span>
+        <br>
+        <span style="--d: 0.1s">Afin d’avoir les meilleurs résultats possibles, nous allons également déterminer
+            l’influence de l’énergie produite par la rotation du barreau magnétique dans l’eau.</span>
+        <br>
+        <span style="--d: 0.2s"><strong>Légende:</strong>
+            <br>TPM = tour par minute (Unité Numérique)
+            <br>Pour obtenir le nombre de TPM, nous avons filmé le barreau magnétique après lui avoir mis un marqueur de
+            couleur, sur une durée de 10s. Puis modifier l’enregistrement pour qu’il soit à une vitesse de 0,5 (sinon il
+            est difficile de déterminer le nombre de tours du barreau). On a obtenu 35 tours pour 10s soit 210 tours /
+            min soit 210 TPM.
+            <br>v = vitesse du barreau (m/s)
+            <br>D = le diamètre du barreau mesuré avec un pied à coulisse, on obtient 25,19mm soit 2.519*10^-2 m
+            <br>Eth = énergie thermique (Joule)
+            <br>Ec = énergie cinétique (Joule)
+            <br>Q = énergie thermique transférée (Joule)
+            <br>m = masse (gramme) qui vaut 4,3g
+            <br>c = capacité thermique (Joule/gramme/°C)
+            <br>𝞓T = différence de température (°C)</span>
+        <br>
+        <span style="--d: 0.3s"><strong>Calcul énergie produite par le barreau magnétique :</strong>
+            <br>v = 2πD/2*TPM/60
+            <br>v = 2π*(1.2595*10^-2)*210/60
+            <br> v = 0.28 m/s ← vitesse du barreau magnétique
+            <br>Eth = Ec
+            <br> Ec = ½*m*v²
+            <br> Ec = ½*m*0.28²
+            <br> Ec = 0.0392*m
+            <br> Eth = 0.0392 * 4.3 ⇔ 0.16856J
+            <br> Cela correspond à l’énergie thermique libérée par le barreau magnétique.
+        </span>
+        <br>
+        <span style="--d: 0.4s">Facteur de l’énergie produite par la rotation du barreau magnétique dans l’eau :
+            <br>
+            <strong>Données:</strong>
+            <br>m(eau) ~ 200g (200mL)
+            <br>Q = Ec =0.16856J
+            <br>c(eau) = 4,18 J/g/°C
+            <br>Q = m*c*𝞓T ⇔ 𝞓T = Q/(m*c)
+            <br>AN: 𝞓T = 0.16856/(200*4,18) ⇔ 2 107/10 450 000 ~ 2.16*10^-4 soit 0.000216°C
+            <br>Soit le barreau magnétique augmente la température du récipient d’eau 0.000216°C par seconde lors des
+            expériences.
+        </span>
+        <br>
+        <span style="--d: 0.5s">Toutes les valeurs qui vont être énoncées peuvent être vérifiées sur les graphiques
+            et/ou les tableurs qui sont fournis.
+            Par la suite, nous remarquons une augmentation progressive de la température. En effet, à 14h , on a une
+            température de 17.56°C. Puis, on dépasse les 18°C vers 14h16 , avec une température exacte à 18.05°C. Nous
+            pouvons remarquer un étrange phénomène qui se produit exactement à 14h53. En effet, comme on peut le voir
+            sur le graphique, la température relevée passe subitement de 18,81°C à 19,25°C. Il peut y avoir 2 raisons
+            différentes. Soit cela est dû à une erreur de la sonde qui à dû se mettre en état de veille et qui a donc
+            cessé de relever de nouvelles valeurs jusqu’à ce qu’il se remette en marche. Ou bien cela s’explique par la
+            cavitation acoustique. Cette hypothèse semble être la plus probable selon nous du fait que le long de
+            l’expérience, nous avons pu observer la formation de bulles dans l’eau. Ceci est dû à la cavitation
+            acoustique qui a également permis l’augmentation de la chaleur de l’eau. <br>Enfin, on relève 19.5°C à 15h24
+            et
+            09 s, à la fin de l’expérimentation, 2,29°C de plus qu’au début. Au final, nous observons une augmentation
+            quasi régulière de la température, la sonde numérique de température ayant une précision au centième près.
+            Ainsi, on peut en déduire que ce sont les ondes ultrasonores qui sont à l’origine de ces bulles de gaz et de
+            l’augmentation de la température de l’eau dans la bassine.
+        </span>
+        <br>
+        <span style="--d: 0.6s">Mais ce n’est pas fini, il ne faut pas oublier l’influence de l’énergie produite par le
+            barreau magnétique. L'expérience avec les ultrasons a débuté à 13h45 et s’est finie à 15h24 et 09s, soit une
+            durée totale de 1h39min9s, ce qui fait 5949s. Sachant que la chaleur de l’énergie fournie par la rotation du
+            barreau magnétique calculée au-dessus est de 0.000778°C (par seconde), on devrait avoir la chaleur générée
+            durant toute l’expérience grâce au calcul suivant : 5949*0.000216~1.28°C
+            Un autre moyen de déterminer l’influence de la rotation du barreau magnétique est d’analyser les valeurs de
+            l’expérience sans les ultrasons mais toujours avec un agitateur magnétique en marche. Grâce à ces valeurs,
+            nous avons pu former un graphique. A l'issue de l’expérience A, nous avons observé une température de
+            21,19°C à 5250s pour une température initiale de 19,87°C au début de l’enregistrement des données. Soit une
+            augmentation de 1,32°C. Avant de passer à l’expérience B, il faut d’abord faire quelques conversions : 5250
+            secondes = 1h27min30s. On ajoute cette durée à l’heure du début de l’expérience A : 13h45 + 1h27min30s =
+            15h12 et 30s. La température relevée à cette heure précise est de 19,37°C. Il y a donc eu une augmentation
+            de 2,16°C depuis le début de l’expérience.
+            <br>
+            <br>100% ⇔ 2,16°C
+            <br>x = 1,32°C
+            <br>Pour déterminer la proportion d’augmentation de température que représente le barreau magnétique, on
+            fait le
+            produit en croix suivant : x = 1,32*100/2,16 = 61,1%
+            <br>On sait que la température de l’eau durant l’expérience B à augmenté de 2,29°C au total. On enlève à ça
+            les
+            61,1% que représente le barreau : 2,29*(1-61,1/100) ~ 0,89°C
+        </span>
+    </p>
 </div>

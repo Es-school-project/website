@@ -14,8 +14,8 @@
     display: flex;
     justify-content: center;
     padding: 5vh;
+    padding-top: 0vh;
 }
-
 
 .carousel {
     width: auto;
@@ -28,3 +28,15 @@
 .d-block {
     border-radius: 2%;
 }
+
+.carousel-item {
+    color: black
+}
+
+.carousel-item img {
+    border: 1px solid white;
+}
+
+.carousel-caption {
+    color: black;
+    }
