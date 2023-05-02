@@ -3,11 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 10vh;
 }
 
 .paragraph {
     text-align: center;
+    color: white;
+    padding: 5vh;
 }
 
 .paragraph span {
@@ -20,6 +23,12 @@
 }
 
 @keyframes reveal {
-    from { transform: translateY(20px)}
-    to { opacity: 1; transform: none}
+    from {
+        transform: translateY(20px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
 }
