@@ -1,10 +1,22 @@
 .contenu {
-    background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
+    /* background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36)); */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 10vh;
+}
+
+img {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .paragraph {
