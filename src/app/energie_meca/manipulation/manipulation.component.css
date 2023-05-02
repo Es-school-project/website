@@ -19,7 +19,12 @@
 
 .carousel {
     width: auto;
-    max-height: 150vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    border-radius: 15%;
+}
+
+.d-block {
+    border-radius: 2%;
 }
