@@ -7,7 +7,7 @@ import { InterpretationComponent } from './interpretation/interpretation.compone
 import { ConclusionComponent } from './conclusion/conclusion.component';
 
 const routes: Routes = [
-    { path: '', redirectTo: 'protocole', pathMatch: 'full' },
+    { path: '', redirectTo: 'interpretation', pathMatch: 'full' },
     { path: 'protocole', component: ProtocoleComponent },
     { path: 'manipulation', component: ManipulationComponent },
     { path: 'interpretation', component: InterpretationComponent },

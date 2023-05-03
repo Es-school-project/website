@@ -1,0 +1,53 @@
+.contenu {
+    background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+.paragraph {
+    text-align: center;
+    color: white;
+    padding: 5vh;
+    padding-top: 0vh;
+}
+
+.paragraph span {
+    color: white;
+    display: block;
+    opacity: 0;
+    /* font-size: 16px; */
+    animation: reveal 0.5s forwards var(--d);
+}
+
+@keyframes reveal {
+    from {
+        transform: translateY(20px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.video_ccl {
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
+
+.video_texte {
+    margin: 10vh;
+    margin-top: 5vh;
+}
+
+.video {
+    display: flex;
+    justify-content: space-around;
+}
