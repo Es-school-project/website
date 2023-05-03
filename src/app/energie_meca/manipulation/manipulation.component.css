@@ -35,9 +35,9 @@
 }
 
 .carousel-item img {
-    border: 1px solid white;
+    border: 1vh solid white;
 }
 
 .carousel-caption {
     color: black;
-    }
+}
