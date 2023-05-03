@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     border-radius: 15%;
+    color: black;
 }
 
 .d-block {

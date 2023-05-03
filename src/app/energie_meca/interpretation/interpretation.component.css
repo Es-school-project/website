@@ -8,6 +8,7 @@
     display: inline-block;
     width: auto;
     color: white;
+    text-align: center;
 }
 
 .title {
@@ -18,6 +19,12 @@
 .texte_title {
     display: flex;
     justify-content: center;
-    margin: 10vh;
-    margin-bottom: 5vh;
+    margin: 5vh;
+}
+
+.interprétation {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
 }
