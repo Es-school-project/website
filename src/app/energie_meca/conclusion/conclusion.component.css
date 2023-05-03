@@ -4,8 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     min-height: 100vh;
+    padding-top: 30vh;
+    padding-bottom: 35vh;
     text-align: center;
     color: white;
 }
