@@ -2,7 +2,43 @@
     background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
     min-height: 100vh;
     padding: 10vh;
-    padding-top: 30vh;
+    padding-top: 25vh;
+}
+
+
+.btn {
+    background: #0e0ead;
+    border-radius: 999px;
+    box-shadow: #0e0ead 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#left-button {
+    align-self: flex-start !important;
+}
+
+#right-button {
+    align-self: flex-end !important;
 }
 
 .title_protocole {
