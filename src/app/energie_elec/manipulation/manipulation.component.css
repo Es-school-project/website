@@ -3,6 +3,7 @@
     min-height: 100vh;
     padding: 10vh;
     padding-top: 25vh;
+    text-align: center;
 }
 
 .btn {
@@ -76,4 +77,33 @@
 
 .carousel-caption {
     color: white;
+}
+
+.paragraph {
+    text-align: center;
+    padding: 5vh;
+    padding-top: 0vh;
+}
+
+.paragraph span {
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
+}
+
+.carousel {
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
+}
+
+@keyframes reveal {
+    from {
+        transform: translateY(20px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
 }

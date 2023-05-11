@@ -23,9 +23,16 @@
     color: white;
     display: block;
     opacity: 0;
-    /* font-size: 16px; */
     animation: reveal 0.5s forwards var(--d);
 }
+
+.video_ccl {
+    color: white;
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
+}
+
 
 
 .btn {
