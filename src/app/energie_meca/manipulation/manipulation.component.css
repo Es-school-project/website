@@ -1,6 +1,6 @@
 .content {
     background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
-    min-height: 100vh;
+    min-height: 550vh;
     padding: 10vh;
     padding-top: 25vh;
     text-align: center;
@@ -44,6 +44,7 @@
 .title_protocole {
     display: inline-block;
     width: auto;
+    min-height: 25vh;
     color: white;
 }
 
@@ -56,11 +57,12 @@
 
 .carousel {
     width: auto;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
     border-radius: 15%;
     color: black;
+    padding-bottom: 10vh;
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
 }
 
 .d-block {
@@ -79,6 +81,10 @@
     color: black;
 }
 
+.img {
+    height: 200vh;
+}
+
 
 .paragraph {
     text-align: center;
@@ -92,11 +98,7 @@
     animation: reveal 0.5s forwards var(--d);
 }
 
-.carousel {
-    display: block;
-    opacity: 0;
-    animation: reveal 0.5s forwards var(--d);
-}
+
 
 @keyframes reveal {
     from {
