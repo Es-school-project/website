@@ -1,13 +1,50 @@
 .content {
     background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
-    min-height: 100vh;
+    min-height: 550vh;
     padding: 10vh;
-    padding-top: 35vh;
+    padding-top: 25vh;
+    text-align: center;
+}
+
+.btn {
+    background: #0e0ead;
+    border-radius: 999px;
+    box-shadow: #0e0ead 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#left-button {
+    align-self: flex-start !important;
+}
+
+#right-button {
+    align-self: flex-end !important;
 }
 
 .title_protocole {
     display: inline-block;
     width: auto;
+    min-height: 25vh;
     color: white;
 }
 
@@ -20,11 +57,14 @@
 
 .carousel {
     width: auto;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
+    max-height: 200vh;
+    min-height: 150vh;
     border-radius: 15%;
     color: black;
+    padding-bottom: 10vh;
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
 }
 
 .d-block {
@@ -41,4 +81,32 @@
 
 .carousel-caption {
     color: black;
+}
+
+
+
+
+.paragraph {
+    text-align: center;
+    padding: 5vh;
+    padding-top: 0vh;
+}
+
+.paragraph span {
+    display: block;
+    opacity: 0;
+    animation: reveal 0.5s forwards var(--d);
+}
+
+
+
+@keyframes reveal {
+    from {
+        transform: translateY(20px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
 }
