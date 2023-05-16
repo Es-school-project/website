@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
-import { AppNavbarComponent } from './navbar/navbar.component'; 
+import { AppNavbarComponent } from './navbar/navbar.component';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { ConclusionComponent } from './conclusion/conclusion.component';
 import { BibliographieComponent } from './bibliographie/bibliographie.component';

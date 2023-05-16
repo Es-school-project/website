@@ -35,35 +35,45 @@
             est difficile de déterminer le nombre de tours du barreau). On a obtenu 35 tours pour 10s soit 210 tours /
             min soit 210 TPM.
             <br>v = vitesse du barreau (m/s)
-            <br>D = le diamètre du barreau mesuré avec un pied à coulisse, on obtient 25,19mm soit 2.519*10^-2 m
+            <br>D = le diamètre du barreau mesuré avec un pied à coulisse,
             <br>Eth = énergie thermique (Joule)
             <br>Ec = énergie cinétique (Joule)
             <br>Q = énergie thermique transférée (Joule)
-            <br>m = masse (gramme) qui vaut 4,3g
+            <br>m = masse (gramme)
             <br>c = capacité thermique (Joule/gramme/°C)
             <br>𝞓T = différence de température (°C)</span>
         <br>
         <span style="--d: 0.3s"><strong>Calcul énergie produite par le barreau magnétique :</strong>
-            <br>v = 2πD/2*TPM/60
-            <br>v = 2π*(1.2595*10^-2)*210/60
-            <br> v = 0.28 m/s ← vitesse du barreau magnétique
-            <br>Eth = Ec
-            <br> Ec = ½*m*v²
-            <br> Ec = ½*m*0.28²
-            <br> Ec = 0.0392*m
-            <br> Eth = 0.0392 * 4.3 ⇔ 0.16856J
-            <br> Cela correspond à l’énergie thermique libérée par le barreau magnétique.
+            <br><strong>Données:</strong>
+            <span [innerHTML]="data4"></span>
+            <span [innerHTML]="data5"></span>
+            <span [innerHTML]="data6"></span>
+            <br>
+            <span [innerHTML]="renderedFormula1"></span>
+            <span [innerHTML]="renderedFormula2"></span>
+            <span [innerHTML]="renderedFormula3"></span>
+            Cela correspond à la vitesse du barreau magnétique.
+            <br>
+            <br>
+            <span [innerHTML]="renderedFormula4"></span>
+            <span [innerHTML]="renderedFormula5"></span>
+            <span [innerHTML]="renderedFormula6"></span>
+            Cela correspond à l’énergie thermique libérée par le barreau magnétique.
         </span>
         <br>
-        <span style="--d: 0.4s">Facteur de l’énergie produite par la rotation du barreau magnétique dans l’eau :
+        <span style="--d: 0.4s"><strong>Facteur de l’énergie produite par la rotation du barreau magnétique dans l’eau
+                :</strong>
             <br>
             <strong>Données:</strong>
-            <br>m(eau) ~ 200g (200mL)
-            <br>Q = Ec =0.16856J
-            <br>c(eau) = 4,18 J/g/°C
-            <br>Q = m*c*𝞓T ⇔ 𝞓T = Q/(m*c)
-            <br>AN: 𝞓T = 0.16856/(200*4,18) ⇔ 2 107/10 450 000 ~ 2.16*10^-4 soit 0.000216°C
-            <br>Soit le barreau magnétique augmente la température du récipient d’eau 0.000216°C par seconde lors des
+            <span [innerHTML]="data"></span>
+            <span [innerHTML]="data2"></span>
+            <span [innerHTML]="data3"></span>
+            <br>
+            <span [innerHTML]="renderedFormula9"></span>
+            <span [innerHTML]="renderedFormula10"></span>
+            <span [innerHTML]="renderedFormula11"></span>
+
+            Soit le barreau magnétique augmente la température du récipient d’eau 0.000216°C par seconde lors des
             expériences.
         </span>
         <br>
@@ -99,14 +109,16 @@
             15h12 et 30s. La température relevée à cette heure précise est de 19,37°C. Il y a donc eu une augmentation
             de 2,16°C depuis le début de l’expérience.
             <br>
-            <br>100% ⇔ 2,16°C
-            <br>x = 1,32°C
             <br>Pour déterminer la proportion d’augmentation de température que représente le barreau magnétique, on
             fait le
-            produit en croix suivant : x = 1,32*100/2,16 = 61,1%
+            produit en croix suivant :
+            <span [innerHTML]="renderedFormula12"></span>
+            <span [innerHTML]="renderedFormula13"></span>
+            <span [innerHTML]="renderedFormula14"></span>
             <br>On sait que la température de l’eau durant l’expérience B à augmenté de 2,29°C au total. On enlève à ça
             les
-            61,1% que représente le barreau : 2,29*(1-61,1/100) ~ 0,89°C
+            61,1% que représente le barreau : 
+            <span [innerHTML]="renderedFormula15"></span>
         </span>
     </p>
 </div>

@@ -25,17 +25,22 @@
             <br>
             <strong>Légende:</strong>
             <br>- P = Puissance sonore (en W)
-            <br>- Po = Puissance de référence en acoustique (1 picowatt (10^-12 W)
+            <br>- Po = Puissance de référence en acoustique: 1 picowatt
             <br>- E = l'énergie mécanique (en Joules)
             <br>- t = la durée d'application de la puissance (en s)
+            <br>- L = ampltitude de l'onde sonore (décibels)
             <br>
+            <br>
+            <strong>Données:</strong>
+            <span [innerHTML]="data"></span>
+            <span [innerHTML]="data2"></span>
+            <span [innerHTML]="data3"></span>
             <br><strong>Conversion en puissance:</strong>
-            <br>P = 10^(L/10) x PO
-            <br>AN: P = 10^(120/10) * 10^-12 = 1W
-            <br>
+            <span [innerHTML]="renderedFormula"></span>
+            <span [innerHTML]="renderedFormula2"></span>
             <br><strong>Calcul de l’énergie mécanique:</strong>
-            <br>E = P x t
-            <br>AN: E = 1 * 3 = 3J
+            <span [innerHTML]="renderedFormula3"></span>
+            <span [innerHTML]="renderedFormula4"></span>
             <br>
             <br>
             Ainsi, lorsqu'un son est émis à la fréquence de résonance d'un verre donné, il peut produire une énergie
