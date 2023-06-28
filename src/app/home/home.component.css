@@ -47,11 +47,10 @@ h2 {
 }
 
 .hypo_title {
-    position: fixed;
+
     color: grey;
-    font-size: 0.8rem;
-    top: 89%;
-    right: 2%;
+    font-size: 3vh;
+
 }
 
 .paragraph span {
