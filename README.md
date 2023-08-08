@@ -5,6 +5,7 @@ Ce projet est propulsé par [Angular CLI](https:,,github.com,angular,angular-cli
 
 · Pour lancer le serveur web : `ng serve`
  
+
 · Pour mettre à jour les modules :`npm update -s`
 
 · Pour mettre à jour Angular : `ng update`
