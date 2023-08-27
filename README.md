@@ -1,4 +1,15 @@
 # Projet d'Enseignement Scientifique
-Cr projet est propulsé par [Angular CLI](https://github.com/angular/angular-cli) version 15.2.8.
-Pour le lancer `ng serve` 
-Pour update les modules `npm update -s` 
+Ce projet est propulsé par [Angular CLI](https://github.com/angular/angular-cli) version `16.0.0`.
+
+
+
+· Pour lancer le serveur web : `ng serve`
+ 
+
+· Pour mettre à jour les modules :`npm update -s`
+
+· Pour mettre à jour Angular : `ng update`
+
+
+
+Il a été réalisé par Nathan et Maxime, pour le projet d'enseignement scientifique de première du lycée Pierre Termier.
