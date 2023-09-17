@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    min-height: 125vh;
+    min-height: 100vh;
     padding-top: 30vh;
 }
 
@@ -20,7 +20,7 @@
 
 
 .title_1 {
-    position: relative;
+    position: fixed;
     font-size: 2.8rem;
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
