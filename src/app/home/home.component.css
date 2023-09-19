@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: flex-end;
     min-height: 100vh;
-    padding-top: 30vh;
+    padding: 30vh, 1vh, 0vh, 1vh;
 }
 
 .text_home {
@@ -38,7 +38,8 @@
 
 .index_home {
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 2vh;
+
 }
 
 .redirection_home {
