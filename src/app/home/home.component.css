@@ -8,13 +8,14 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    min-height: 100vh;
+    min-height: 105vh;
     padding: 30vh, 1vh, 0vh, 1vh;
 }
 
 .text_home {
     text-align: center;
     color: grey;
+    font-size: 1.2rem;
 }
 
 
@@ -37,13 +38,14 @@
 }
 
 .index_home {
-    padding-top: 5vh;
+    padding-top: 10vh;
     padding-bottom: 2vh;
 
 }
 
 .redirection_home {
     text-align: center;
+
 }
 
 .paragraph span {
