@@ -71,6 +71,13 @@
     display: block;
     opacity: 0;
     animation: reveal 0.5s forwards var(--d);
+
+}
+
+
+
+.accordion-color {
+    background: radial-gradient(circle, rgb(1, 26, 93), rgb(1, 0, 36));
 }
 
 @keyframes reveal {
