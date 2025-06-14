@@ -17,32 +17,25 @@ import { EnergieElecModule } from './energie_elec/energie_elec.module';
 import { EnergieMecaModule } from './energie_meca/energie_meca.module';
 import { EnergieThermModule } from './energie_therm/energie_therm.module';
 
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    FooterComponent,
-    ConclusionComponent,
-    BibliographieComponent,
-    EnergieMecaniqueComponent,
-    EnergieElectriqueComponent,
-    EnergieThermiqueComponent,
-    PagenotfoundComponent,
-    AppNavbarComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbDropdownModule,
-    FormsModule,
-    EnergieElecModule,
-    EnergieMecaModule,
-    EnergieThermModule,
-    HttpClientModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent],
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HomeComponent,
+        FooterComponent,
+        ConclusionComponent,
+        BibliographieComponent,
+        EnergieMecaniqueComponent,
+        EnergieElectriqueComponent,
+        EnergieThermiqueComponent,
+        PagenotfoundComponent,
+        AppNavbarComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        NgbDropdownModule,
+        FormsModule,
+        EnergieElecModule,
+        EnergieMecaModule,
+        EnergieThermModule], providers: [provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule { }
