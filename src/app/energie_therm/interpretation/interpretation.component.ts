@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
-import katex from 'katex';
+import * as katex from 'katex';
 
 @Component({
   selector: 'app-interpretation',
