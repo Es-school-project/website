@@ -3,9 +3,10 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import * as katex from 'katex';
 
 @Component({
-  selector: 'app-interpretation',
-  templateUrl: './interpretation.component.html',
-  styleUrls: ['./interpretation.component.css']
+    selector: 'app-interpretation',
+    templateUrl: './interpretation.component.html',
+    styleUrls: ['./interpretation.component.css'],
+    standalone: false
 })
 export class InterpretationComponent implements OnInit {
   renderedFormula: SafeHtml = '';

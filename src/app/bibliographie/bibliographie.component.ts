@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-bibliographie',
-  templateUrl: './bibliographie.component.html',
-  styleUrls: ['./bibliographie.component.css']
+    selector: 'app-bibliographie',
+    templateUrl: './bibliographie.component.html',
+    styleUrls: ['./bibliographie.component.css'],
+    standalone: false
 })
 export class BibliographieComponent {
   showLinksMecanique = false;
